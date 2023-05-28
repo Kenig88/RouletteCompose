@@ -66,8 +66,8 @@ fun RuleScreen() {
                 .weight(1f)
         ) {
             Image(
-                painter = painterResource(R.drawable.rule),
-                contentDescription = "rule",
+                painter = painterResource(R.drawable.roulette),
+                contentDescription = "roulette",
                 modifier = Modifier
                     .fillMaxSize()
                     .rotate(angle) //(из-за angle картинка с рулеткой будет крутиться плавно)
@@ -87,7 +87,7 @@ fun RuleScreen() {
             colors = ButtonDefaults.buttonColors(backgroundColor = RedButton)
         ) {
             Text(
-                text = "ROLL",
+                text = "Spin",
                 color = Color.White,
                 fontSize = 20.sp
             )
